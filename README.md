@@ -1,4 +1,4 @@
-# PDE-Spectral Method-Fourier Galerkin Approcah-Burgers' Equation
+# PDE-Spectral Method-Fourier Galerkin Approach-Burgers' Equation
 This project was performed to practice a common approach to using the Spectral Method with the fourier Galerkin approach to solving PDE's. Specifically, we'll be tackling the periodic Burgers' Equation:
 https://en.wikipedia.org/wiki/Burgers%27_equation
 

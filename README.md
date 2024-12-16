@@ -24,3 +24,5 @@ if we choose u_n(x,t=0) to have an initial condition equalling sin(x/2) (which s
 u_k(t=0) = 2/(pi*(1-4k^2))
 
 Combine these two steps, add up the terms of u_k, and we can recreate u_N, our spectral approximation of u, at any time!
+
+https://github.com/user-attachments/assets/8841bf6c-bc72-42fc-80e1-58845b050bbf

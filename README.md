@@ -19,7 +19,9 @@ du_k/dt = -k^2*v*u_k - i/(2pi) * convolution sum_(j+l=k) {u_j*u_l*l}      Equati
 
 This can be solved with ODEINT and we get our initial condition by again making use of the orthogonallity property
 int(u_N(x,t=0)*exp(-ikx))dx = int( sum_j(u_k(t))*exp(+ijx) *exp(-ikx))dx = 2pi*u_k(t=0)
+
 u_k(t=0) = 1/2pi * int(u_N(x,t=0)*exp(-ikx))dx 
+
 if we choose u_n(x,t=0) to have an initial condition equalling sin(x/2) (which satisfies our periodic boundary condition), we get:
 u_k(t=0) = 2/(pi*(1-4k^2))
 
